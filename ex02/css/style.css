@@ -1,1 +1,90 @@
 
+/* Định dạng toàn bộ trang */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Khung quảng cáo */
+.banner {
+    max-width: 820px;
+    margin: 0 auto;
+
+    background: linear-gradient(
+        160deg,
+        #C9A227,
+        #A8861B
+    );
+
+    color: #FFFFFF;
+    padding: 28px 36px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Tiêu đề */
+.banner h1 {
+    font-size: 26px;
+    text-align: center;
+
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Các đoạn văn */
+.banner p {
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+/* Ảnh Vạn Lý Trường Thành */
+.anh-noi {
+    width: 260px;
+    height: 350px;
+    object-fit: cover;
+
+    float: right;
+    margin: 0 0 14px 18px;
+
+    border: 3px solid rgba(255, 255, 255, 0.85);
+    border-radius: 4px;
+}
+
+/* Hiển thị trên màn hình nhỏ */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .banner {
+        padding: 20px;
+    }
+
+    .banner h1 {
+        font-size: 22px;
+    }
+
+    .anh-noi {
+        float: none;
+        display: block;
+
+        width: 100%;
+        max-width: 300px;
+
+        margin: 0 auto 20px;
+    }
+
+    .banner p {
+        font-size: 14px;
+    }
+}
+
