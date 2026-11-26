@@ -1,1 +1,40 @@
 
+body {
+    background-color: white;
+}
+
+.container {
+    width: 560px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #ffffed;
+    text-align: center;
+}
+
+h2 {
+    background-color: #ffd6e5;
+    color: red;
+    padding: 5px;
+    margin: 0;
+}
+
+p {
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+hr {
+    width: 55%;
+    border: none;
+    border-top: 1px solid blue;
+}
+
